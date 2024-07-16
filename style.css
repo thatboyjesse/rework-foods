@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+    height: 70px;
+    border-bottom: 1px solid red;
+}
+.logo{
+    width: 54px;
+    font-size: 32px;
+    font-weight: 600;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.link:hover{
+    text-decoration: underline;
+    color: red;
+}
+.nav_right ul{
+    display: flex;
+    gap: 40px;
+    padding: 0 10px;
+    justify-content: space-around;
+}
+.index_section1{
+    background-image: url(/index_images/interior.jpeg);
+    max-width: 100%;
+    background-position: 100%;
+    height: 400px;
+    background-color: red;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.index_section1 h2{
+    font-weight: 600;
+    color: white;
+    padding: 100px 0px 0px;
+    font-size: 40px;
+}
+.index_section1 p{
+    color: white;
+    padding-top: 10px;
+    font-size: 17px;
+}
+.index_section1 input{
+    padding: 8px 40px;
+    margin: 10px 0 0;
+    text-align: left;
+    border: 1px solid red;
+    color: white;
+    background-color: yellow;
+
+}.index_section2{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    padding: 20px 250px;
+}
+.index_section2 button{
+    width: 200px;
+    height: 400px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+.index_section2 button:hover{
+    border: 1px solid red;
+}
+.index_section2 img{
+    max-width: 140px;
+}
+.pre_footer_one ul{
+    display: flex;    
+}
+.pre_footer_one{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px 30px 20px;
+    margin: 0px 89.5px;
+}.pre_footer_one ul li{
+    margin: 0px 0px 0px 20px;
+}
+.hr{
+    margin: 0px 69.5px;  
+}
+.pre_footer_two{
+    display: flex;
+    margin: 40px 50px;  
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.pre_footer_two ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+.pre_footer_two ul{
+    margin: 20px 20px;
+    gap: 20px;
+}
+.pre_footer_two ul li img{
+    width: 28px;
+    margin: 0px 20px 0px 20px;
+}
+.text{
+    text-align: right;
+    padding: 0px 0px 0px 30px;
+    margin-right: 60px;
+}
