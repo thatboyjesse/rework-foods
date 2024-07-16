@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(214, 208, 208);
+}
+.Bill_ctn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bg {
+    background-image: url(https://www.upmenu.com/wp-content/uploads/2021/05/7-how-to-start-a-fast-food-restaurant-menu-example-kfc.jpg);
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.foodmenu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+    padding-left: 10%;
+}
+.burger_bg {
+    background-image: url(https://st2.depositphotos.com/1020618/8867/i/450/depositphotos_88671260-stock-photo-close-up-of-home-made.jpg);
+    height: 250px;
+    width: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.pizza_bg {
+    background-image: url(https://cdn.pixabay.com/photo/2020/05/17/04/22/pizza-5179939_640.jpg);
+    height: 250px;
+    width: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.sandwish_bg {
+    background-image: url(https://t4.ftcdn.net/jpg/01/23/55/53/360_F_123555365_8WfqtRbRFxPqWVX1S6fZdkrbmnSfiUah.jpg);
+    height: 250px;
+    width: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.chicken_bg {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYTWymdGgg2jzkyN-8SbpMSL9jB2kDDVqgxA&s);
+    height: 250px;
+    width: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.fries_bg {
+    background-image: url(https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2023/07/In-n-out-animal-style-fries-14-of-16-1200x675.jpg);
+    height: 250px;
+    width: 30%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.snack_bg {
+    background-image: url(https://www.tastingtable.com/img/gallery/25-most-popular-snacks-in-america-ranked-worst-to-best/intro-1645492743.jpg);
+    height: 300px;
+    width: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.burrito_bg {
+    background-image: url(https://arteflame.com/cdn/shop/articles/Grilled_Breakfast_Burrito_Recipe_on_the_Arteflame_Grill.webp?v=1716487104&width=1600);
+    height: 300px;
+    width: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.foodtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 75%;
+}
+.foodtext_one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 85%; 
+}
+button {
+    background-color: rgb(101,53,31);
+    border-radius: 10px;
+    color: azure;
+}
